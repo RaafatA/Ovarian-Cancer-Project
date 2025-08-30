@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Define directories and parameters
-GENOME_DIR="Path/to/reference/index"       # Path to the directory containing genome reference files
-GTF_FILE="/home/ag003u1/data/GCF_018294505.1_IWGSC_CS_RefSeq_v2.1_genomic.gtf"  # Path to GTF annotation file
-FASTQ_DIR="/home/ag003u1/data/Transcriptome/wheat_bread"  # Path to the directory containing FASTQ files
-OUTPUT_DIR="mapped_reads_HISAT2"                       # Directory for storing output files
+GENOME_DIR="/home/2375894/radwa-scratch/raw_data/ref_tran/hisat_index"       # Path to the directory containing genome reference files
+GTF_FILE="/home/2375894/radwa-scratch/raw_data/ref_tran/genecode.v38.basic.annotation.gtf"  # Path to GTF annotation file
+FASTQ_DIR="/home/2375894/radwa-scratch/raw_data/mrna/merged_samples"  # Path to the directory containing FASTQ files
+OUTPUT_DIR="/home/2375894/radwa-scratch/raw_data/mapped_reads_HISAT2"                       # Directory for storing output files
 THREADS=16                                      # Number of threads for HISAT2 (adjust as needed)
 FINAL_OUTPUT="${OUTPUT_DIR}/final_counts.txt"      # Final output file to store all counts
 
